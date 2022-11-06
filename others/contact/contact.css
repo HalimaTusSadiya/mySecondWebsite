@@ -1,0 +1,740 @@
+.heading{
+    background-color: #7FA44E!important;
+    margin-bottom: 0%;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    
+    }
+    .heading .heading1 .logo{
+        margin-left: 10%;
+    }
+   
+    .heading .heading1 .logo img{
+        height: 40px;
+        width: 40px;
+       
+    }
+    .heading .heading1 .logo span{
+    font-size: xx-large;
+    color: #023C2E!important;
+    font-weight: bold;
+    }
+    .heading .heading1 .uldiv{
+        margin-right: 10%!important;
+    }
+    .heading .heading1 .uldiv ul li{
+    margin: 0px 40px;
+    position: relative;
+    z-index: 1;
+    }
+    
+    .heading .heading1 .uldiv ul li:hover::after{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 9px;
+        height: 50px;
+        width: 110px;
+        background-color: #023C2E;
+        margin-left: -10px;
+        z-index: -1;
+    
+    }
+       
+    .heading .heading1 .uldiv ul .special-li::after{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 9px;
+        height: 50px;
+        width: 110px;
+        background-color: #023C2E;
+        margin-left: -10px;
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul .special-li:before{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 1px;
+        left: -16px;
+        height: 10px;
+        width: 110px;
+        background-color: #070a0a;
+        margin-left: -10px;
+        
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul li:hover:before{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 1px;
+        left: -16px;
+        height: 10px;
+        width: 110px;
+        background-color: #070a0a;
+        margin-left: -10px;
+        
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul li a{
+        color: white!important;
+        margin-top: 5px;
+    }
+/* 
+    .background{
+        background-image: url(../../image/john_deere_autonomous_1.0.jpg);
+        height: 550px;
+        width: 100%;
+        background-size: cover;
+    } */
+    .background img{
+        height: 500px;
+        width: 100%;
+    }
+
+    .backfoot{
+        background-color: #7FA44E!important;
+    }
+    .footleft{
+        border-right: 7px double #023C2E;
+    }
+    /* .footright{
+        border-left: 2px solid #023C2E;
+    } */
+    .contact .conhead{
+        position: relative;
+    }
+    /* .contact .conhead h1::after{
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: black;
+        position: absolute;
+        top: 63px;
+        margin-left: -120px;
+    } */
+
+    .contact .contactway .constart .ourinfo span{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .contact .contactway .constart .ourinfo .spa{
+        color: #023C2E;
+    }
+    .contact .contactway .constart .ourinfo .spb{
+        color: #7FA44E;
+    }
+
+    .contact .contactway .constart p{
+        text-align: justify;
+    }
+
+    .contact .contactway .constart h5{
+        color: #7FA44E;
+        font-weight: bold;
+       
+    }
+    .contact .contactway .constart i{
+        color:#023C2E ;
+    }
+
+    .contact .contactway .conend .ourinfo span{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .contact .contactway .conend .ourinfo .spa{
+        color: #023C2E;
+    }
+    .contact .contactway .conend .ourinfo .spb{
+        color: #7FA44E;
+    }
+
+    .contact .contactway .conend .mss{
+        height: 200px ;
+     
+    }
+
+    .contact .contactway .conend input{
+        background-color: #7FA44E;
+        color: white!important;
+    }
+
+    .contact .contactway .conend  textarea{
+         background-color: #7FA44E!important;
+         color: white!important;
+    }
+    ::placeholder {
+        color: white!important;
+        opacity: 1; /* Firefox */
+      }
+      .contact .contactway .conend .button{
+        background-color: #023C2E;
+      }
+
+      .conclusion{
+        height: 400px;
+        background-color:#7FA44E ;
+        margin-top: 0px;
+    }
+
+    .conclusion .header{
+        height: 40px;
+        width: 100%;
+        background-color: #023C2E ;
+    }
+    
+    .conclusion .js p{
+        text-align: justify;
+    }
+
+    
+
+
+
+
+    @media only screen and (max-width: 600px) {
+ 
+        .heading {
+            height: 80px!important;
+            position: relative;
+        }
+    
+    
+        .heading .heading1 .logo img{
+            margin-left: 10px;
+        }
+    
+        .heading .heading1 .uldiv ul {
+            right: 0%;
+            position: absolute;
+            transition: 2s;
+             padding: 0;
+             background-color: #7FA44E;  
+        }  
+    
+        .heading .heading1 .uldiv ul li{ 
+           width: 100px;
+            padding: 0;  
+        } 
+    
+        .heading .heading1 .uldiv ul li a{
+        width: 100%; 
+        text-align: right;
+        } 
+    
+        .heading .heading1 .uldiv ul li:hover a{
+            color: #023c2e !important; 
+            font-weight: bold;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover::after{
+            content: none;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover:before{
+            content:none;           
+        }
+    
+       
+               
+        .heading .heading1 .uldiv ul .special-li::after{
+            content: none;
+        }
+    
+        .heading .heading1 .uldiv ul .special-li:before{
+            content: none;
+        }
+
+        .background img{
+            height: 300px;
+        }
+
+        .backfoot{
+            display: block!important;
+        }
+
+        .footleft{
+            border-right: none;
+        }
+        .footleft h2{
+            margin: 0%!important;
+            padding: 1%!important;
+
+        }
+        .backfoot .footright p{
+            margin: 0%!important;
+            padding: 1%!important;
+            text-align: justify;
+        }
+        .contact .contactway .constart{
+            margin-left: 0%!important;
+        }
+        .contact .contactway .constart .ourinfo{
+            padding: 0% 5%!important;
+        }
+
+        .contact .contactway .constart p{
+            padding-left: 5%!important;
+        }
+
+       
+
+        .contact .contactway .constart .add .addicon{
+            margin-right: 0%!important;
+            padding-left: 2%!important;
+        }
+        .contact .contactway .constart .add h5{
+            padding-left: 5%!important;
+        }
+        .contact .contactway .constart .add .addinfo{
+            margin-left: 5%!important;
+        }
+
+        .contact .contactway .constart .e-mail .addicon{
+            margin-right: 0%!important;
+            padding-left: 2%!important;
+        }
+        .contact .contactway .constart .e-mail h5{
+            padding-left: 5%!important;
+        }
+        .contact .contactway .constart .e-mail .addinfo{
+            margin-left: 2%!important;
+        }
+        
+        .contact .contactway .constart .phone .addicon{
+            margin-right: 0%!important;
+            padding-left: 2%!important;
+        }
+        .contact .contactway .constart .phone h5{
+            padding-left: 5%!important;
+        }
+        .contact .contactway .constart .phone .addinfo{
+            margin-left: 0%!important;
+        }
+        .contact .contactway .conend{
+            margin-left: 0%!important;
+        }
+
+        .contact .contactway .conend .ourinfo{
+            padding: 0% 5%!important;
+        }
+
+      .form-control {
+        margin-left: 0%!important;
+
+      }
+      .map{
+          margin-left: 0% !important;;
+        padding:0% 5%!important;
+          
+      }
+
+      .conclusion{
+        height: auto;
+    }
+    
+    .conclusion .header{
+        height: 20px;
+    }
+    
+    .conclusion .row {
+      display: block!important;
+    }
+    
+    .conclusion .row .colone h4{
+    margin-left: 0%!important;
+    margin-bottom: 20px!important;
+    color: #023C2E ;
+    font-weight: bold;
+    }
+    
+    .conclusion .row .colone a{
+    margin-left: -15px!important;   
+    }
+    
+    .conclusion .row .coltwo h4{
+        color: #023C2E ;
+        font-weight: bold;
+        margin-bottom:10px!important ;
+        margin-top: 50px!important;
+    }
+    
+    .conclusion .row .colthree{
+        margin-left: 0%!important;
+        }
+    
+        .conclusion .row .colthree h4{
+            margin-bottom: 20px!important;
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+        .conclusion .row .colfour h4{
+            
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+
+} 
+
+
+   
+        
+        
+@media only screen and (min-width: 600px) and (max-width:768px){
+    .heading {
+        height: 80px!important;
+        position: relative;
+    }
+
+
+    .heading .heading1 .logo img{
+        margin-left: 10px;
+    }
+
+    .heading .heading1 .uldiv ul {
+        right: 0%;
+        position: absolute;
+        transition: 2s;
+         padding: 0;
+         background-color: #7FA44E;  
+    }  
+
+    .heading .heading1 .uldiv ul li{ 
+       width: 100px;
+        padding: 0;  
+    } 
+
+    .heading .heading1 .uldiv ul li a{
+    width: 100%; 
+    text-align: right;
+    } 
+
+    .heading .heading1 .uldiv ul li:hover a{
+        color: #023c2e !important; 
+        font-weight: bold;  
+    }
+
+    .heading .heading1 .uldiv ul li:hover::after{
+        content: none;  
+    }
+
+    .heading .heading1 .uldiv ul li:hover:before{
+        content:none;           
+    }
+
+   
+           
+    .heading .heading1 .uldiv ul .special-li::after{
+        content: none;
+    }
+
+    .heading .heading1 .uldiv ul .special-li:before{
+        content: none;
+    }
+    .background img{
+        height: 400px;
+    }
+
+    .backfoot{
+        display: block!important;
+    }
+
+    .footleft{
+        border-right: none;
+    }
+    .footleft h2{
+        margin: 0%!important;
+        padding: 1%!important;
+
+    }
+    .backfoot .footright p{
+        margin: 0%!important;
+        padding: 1%!important;
+        text-align: justify;
+    }
+
+    .contact .contactway .constart{
+        margin-left: 0%!important;
+    }
+    .contact .contactway .constart .ourinfo{
+        padding: 0% 5%!important;
+    }
+
+    .contact .contactway .constart p{
+        padding-left: 5%!important;
+    }
+
+   
+
+    .contact .contactway .constart .add .addicon{
+        margin-right: 0%!important;
+        padding-left: 2%!important;
+    }
+    .contact .contactway .constart .add h5{
+        padding-left: 5%!important;
+    }
+    .contact .contactway .constart .add .addinfo{
+        margin-left: 5%!important;
+    }
+
+    .contact .contactway .constart .e-mail .addicon{
+        margin-right: 0%!important;
+        padding-left: 2%!important;
+    }
+    .contact .contactway .constart .e-mail h5{
+        padding-left: 5%!important;
+    }
+    .contact .contactway .constart .e-mail .addinfo{
+        margin-left: 2%!important;
+    }
+    
+    .contact .contactway .constart .phone .addicon{
+        margin-right: 0%!important;
+        padding-left: 2%!important;
+    }
+    .contact .contactway .constart .phone h5{
+        padding-left: 5%!important;
+    }
+    .contact .contactway .constart .phone .addinfo{
+        margin-left: 0%!important;
+    }
+    .contact .contactway .conend{
+        margin-left: 0%!important;
+    }
+
+    .contact .contactway .conend .ourinfo{
+        padding: 0% 5%!important;
+    }
+
+    .form-control {
+        margin-left: 0%!important;
+      }
+      .map{
+      padding:0% 4%!important;
+        
+    }
+
+    .conclusion{
+        height: auto;
+    }
+
+    .conclusion .header{
+        height: 20px;
+    }
+    
+    .conclusion .row {
+      display: block!important;
+    }
+    
+    .conclusion .row .colone h4{
+    margin-left: 0%!important;
+    margin-bottom: 20px!important;
+    color: #023C2E ;
+    font-weight: bold;
+    }
+    
+    .conclusion .row .colone a{
+    margin-left: -15px!important;   
+    }
+    
+    .conclusion .row .coltwo h4{
+        color: #023C2E ;
+        font-weight: bold;
+        margin-bottom:10px!important ;
+        margin-top: 50px!important;
+    }
+    
+    .conclusion .row .colthree{
+        margin-left: 0%!important;
+        }
+    
+        .conclusion .row .colthree h4{
+            margin-bottom: 20px!important;
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+        .conclusion .row .colfour h4{
+            
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+    .heading {
+        height: 80px!important;
+        position: relative;
+    }
+
+
+    .heading .heading1 .logo img{
+        margin-left: 10px;
+    }
+
+    .heading .heading1 .uldiv ul {
+        right: 0%;
+        position: absolute;
+        transition: 2s;
+         padding: 0;
+         background-color: #7FA44E;  
+    }  
+
+    .heading .heading1 .uldiv ul li{ 
+       width: 100px;
+        padding: 0;  
+    } 
+
+    .heading .heading1 .uldiv ul li a{
+    width: 100%; 
+    text-align: right;
+    } 
+
+    .heading .heading1 .uldiv ul li:hover a{
+        color: #023c2e !important; 
+        font-weight: bold;  
+    }
+
+    .heading .heading1 .uldiv ul li:hover::after{
+        content: none;  
+    }
+
+    .heading .heading1 .uldiv ul li:hover:before{
+        content:none;           
+    }
+
+   
+           
+    .heading .heading1 .uldiv ul .special-li::after{
+        content: none;
+    }
+
+    .heading .heading1 .uldiv ul .special-li:before{
+        content: none;
+    }
+    .background img{
+        height: 400px;
+    }
+
+    .backfoot{
+        display: block!important;
+    }
+
+    .footleft{
+        border-right: none;
+    }
+    .footleft h2{
+        margin: 0%!important;
+        padding: 1%!important;
+
+    }
+    .backfoot .footright p{
+        margin: 0%!important;
+        padding: 1%!important;
+        text-align: justify;
+    }
+
+    .contact .contactway .constart {
+        width: 100%!important;
+    }
+    .contact .contactway .conend {
+        width: 100%!important;
+        margin-left: 0%!important;
+    }
+    
+    
+    .conclusion{
+        height: auto;
+    }
+    
+    .conclusion .header{
+        height: 20px;
+    }
+    
+    .conclusion .row {
+      display: block!important;
+    }
+    
+    .conclusion .row .colone h4{
+    margin-left: 0%!important;
+    margin-bottom: 20px!important;
+    color: #023C2E ;
+    font-weight: bold;
+    }
+    
+    .conclusion .row .colone a{
+    margin-left: -15px!important;   
+    }
+    
+    .conclusion .row .coltwo h4{
+        color: #023C2E ;
+        font-weight: bold;
+        margin-bottom:10px!important ;
+        margin-top: 50px!important;
+    }
+    
+    .conclusion .row .colthree{
+        margin-left: 0%!important;
+        }
+    
+        .conclusion .row .colthree h4{
+            margin-bottom: 20px!important;
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+        .conclusion .row .colfour h4{
+            
+            color: #023C2E ;
+            font-weight: bold;
+            margin-top: 50px!important;
+        }
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .heading .heading1 .uldiv{
+        margin-right: 5%!important;
+    }
+    .heading .heading1 .logo{
+        margin-left: 5%;
+    }
+    .footleft {
+        margin-right: 0%!important;
+    }
+    .footleft h2{
+        margin-left: 2%!important;
+        margin-top: 0%!important;
+    }
+    .footright{
+        margin: 0%!important;
+    }
+
+    .footright p{
+        margin:0% 2%!important;
+    }
+
+  .conclusion{
+      height: auto;
+  }
+}
+
+
+
+

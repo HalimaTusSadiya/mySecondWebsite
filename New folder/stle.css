@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+}
+.main .left{
+    width: 60%;
+    text-align: justify;
+}

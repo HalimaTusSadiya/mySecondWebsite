@@ -1,0 +1,582 @@
+.heading{
+    background-color: #7FA44E!important;
+    margin-bottom: 0%;
+    }
+    .heading .heading1 .logo{
+        margin-left: 5%;
+    }
+    .heading .heading1 .logo img{
+        height: 40px;
+        width: 40px;
+    }
+    .heading .heading1 .logo span{
+    font-size: xx-large;
+    color: #023C2E!important;
+    font-weight: bold;
+    }
+    .heading .heading1 .uldiv{
+        margin-right:10%!important;
+    }
+    .heading .heading1 .uldiv ul li{
+    margin: 0px 40px;
+    position: relative;
+    z-index: 1;
+    }
+    
+    .heading .heading1 .uldiv ul li:hover::after{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 9px;
+        height: 50px;
+        width: 110px;
+        background-color: #023C2E;
+        margin-left: -10px;
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul li:hover:before{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 1px;
+        left: -16px;
+        height: 10px;
+        width: 110px;
+        background-color: #070a0a;
+        margin-left: -10px;
+        
+        z-index: -1;
+    
+    }
+           
+    .heading .heading1 .uldiv ul .special-li::after{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 9px;
+        height: 50px;
+        width: 110px;
+        background-color: #023C2E;
+        margin-left: -10px;
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul .special-li:before{
+        content: "";
+        position: absolute;
+        transform: skewX(30deg);
+        top: 1px;
+        left: -16px;
+        height: 10px;
+        width: 110px;
+        background-color: #070a0a;
+        margin-left: -10px;
+        
+        z-index: -1;
+    
+    }
+    .heading .heading1 .uldiv ul li a{
+        color: white!important;
+        margin-top: 5px;
+    }
+
+    .background{
+        height: 500px;
+        width: 100%;
+        background-image: url(proimg/2630218.jpg);
+        background-size: cover;
+        background-position: center;
+     
+    }
+
+    .backfoot{
+        background-color: #7FA44E;
+    }
+    .footstart{
+        border-right: solid 2px #023C2E ;
+        margin: 10px 0px;
+    }
+
+    .footend {
+        border-left: solid 2px #023C2E  ;
+        margin: 10px 0px;
+    }
+    .frofile .frohead h1{
+        position: relative;
+    }
+    /* .frofile .frohead h1::after{
+        content: "";
+        height: 3px;
+        width: 80px;
+        background-color: black;
+        position: absolute;
+        top: 63px;
+        margin-left: -100px;
+    } */
+    .button .btn1{
+        background-color: rgb(184, 184, 184);
+        padding: 5px 20px;
+        margin: 0px 5px;
+    }
+    .button .btn1:hover{
+        background-color: #023C2E;
+        color: white;
+    }
+
+    .gridimg .gridimg1 .gridimg2 .gridimg3 img{
+        height: 350px!important;
+
+    }
+
+    .conclusion{
+        height: 400px;
+        background-color:#7FA44E ;
+        margin-top: 0px;
+    }
+    .conclusion .header{
+        height: 40px;
+        width: 100%;
+        background-color: #023C2E ;
+    }
+    
+    .conclusion .js p{
+        text-align: justify;
+    }
+
+
+
+
+
+    @media only screen and (max-width: 600px) {
+ 
+        .heading {
+            height: 80px!important;
+            position: relative;
+        }
+    
+    
+        .heading .heading1 .logo img{
+            margin-left: 10px;
+        }
+    
+        .heading .heading1 .uldiv ul {
+            right: 0%;
+            position: absolute;
+            transition: 2s;
+             padding: 0;
+             background-color: #7FA44E;  
+        }  
+    
+        .heading .heading1 .uldiv ul li{ 
+           width: 100px;
+            padding: 0;  
+        } 
+    
+        .heading .heading1 .uldiv ul li a{
+        width: 100%; 
+        text-align: right;
+        } 
+    
+        .heading .heading1 .uldiv ul li:hover a{
+            color: #023c2e !important; 
+            font-weight: bold;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover::after{
+            content: none;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover:before{
+            content:none;           
+        }
+    
+       
+               
+        .heading .heading1 .uldiv ul .special-li::after{
+            content: none;
+        }
+    
+        .heading .heading1 .uldiv ul .special-li:before{
+            content: none;
+        }
+
+
+        .backfoot{
+            display: block!important;
+          
+        }
+
+        .footstart{
+            border-right: none ;
+            margin-top: 0%!important;
+            padding-top: 0%!important;
+        }
+
+        .footstart h2{
+            padding: 0%!important;
+        }
+
+        .footend {
+            border-left: none ;
+        }
+
+        .footend p{
+            padding:  0% 0px!important;
+            text-align: justify;
+        }
+        .button .btn1{
+          
+            padding: 5px 30px;
+            margin: 10px 10px;
+        }
+
+
+
+        .conclusion{
+            height: auto;
+        }
+        
+        .conclusion .header{
+            height: 20px;
+        }
+        
+        .conclusion .row {
+          display: block!important;
+        }
+        
+        .conclusion .row .colone h4{
+        margin-left: 0%!important;
+        margin-bottom: 20px!important;
+        color: #023C2E ;
+        font-weight: bold;
+        }
+        
+        .conclusion .row .colone a{
+        margin-left: -15px!important;   
+        }
+        
+        .conclusion .row .coltwo h4{
+            color: #023C2E ;
+            font-weight: bold;
+            margin-bottom:10px!important ;
+            margin-top: 50px!important;
+        }
+        
+        .conclusion .row .colthree{
+            margin-left: 0%!important;
+            }
+        
+            .conclusion .row .colthree h4{
+                margin-bottom: 20px!important;
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+            .conclusion .row .colfour h4{
+                
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+
+    } 
+    
+    
+
+
+
+    @media only screen and (min-width: 600px) and (max-width:768px){
+        .heading {
+            height: 80px!important;
+            position: relative;
+        }
+    
+    
+        .heading .heading1 .logo img{
+            margin-left: 10px;
+        }
+    
+        .heading .heading1 .uldiv ul {
+            right: 0%;
+            position: absolute;
+            transition: 2s;
+             padding: 0;
+             background-color: #7FA44E;  
+        }  
+    
+        .heading .heading1 .uldiv ul li{ 
+           width: 100px;
+            padding: 0;  
+        } 
+    
+        .heading .heading1 .uldiv ul li a{
+        width: 100%; 
+        text-align: right;
+        } 
+    
+        .heading .heading1 .uldiv ul li:hover a{
+            color: #023c2e !important; 
+            font-weight: bold;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover::after{
+            content: none;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover:before{
+            content:none;           
+        }
+    
+       
+               
+        .heading .heading1 .uldiv ul .special-li::after{
+            content: none;
+        }
+    
+        .heading .heading1 .uldiv ul .special-li:before{
+            content: none;
+        }
+
+
+        .backfoot{
+            display: block!important;
+          
+        }
+
+        .footstart{
+            border-right: none ;
+            margin-top: 0%!important;
+            padding-top: 0%!important;
+        }
+
+        .footstart h2{
+            padding: 0%!important;
+        }
+
+        .footend {
+            border-left: none ;
+        }
+
+        .footend p{
+            padding:  0% 0px!important;
+            text-align: justify;
+        }
+
+        .conclusion{
+            height: auto;
+        }
+        
+        .conclusion .header{
+            height: 20px;
+        }
+        
+        .conclusion .row {
+          display: block!important;
+        }
+        
+        .conclusion .row .colone h4{
+        margin-left: 0%!important;
+        margin-bottom: 20px!important;
+        color: #023C2E ;
+        font-weight: bold;
+        }
+        
+        .conclusion .row .colone a{
+        margin-left: -15px!important;   
+        }
+        
+        .conclusion .row .coltwo h4{
+            color: #023C2E ;
+            font-weight: bold;
+            margin-bottom:10px!important ;
+            margin-top: 50px!important;
+        }
+        
+        .conclusion .row .colthree{
+            margin-left: 0%!important;
+            }
+        
+            .conclusion .row .colthree h4{
+                margin-bottom: 20px!important;
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+            .conclusion .row .colfour h4{
+                
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+            
+    }
+
+
+
+    @media only screen and (min-width: 768px) and (max-width:992px){
+        .heading {
+            height: 80px!important;
+            position: relative;
+        }
+    
+    
+        .heading .heading1 .logo img{
+            margin-left: 10px;
+        }
+    
+        .heading .heading1 .uldiv ul {
+            right: 0%;
+            position: absolute;
+            transition: 2s;
+             padding: 0;
+             background-color: #7FA44E;  
+        }  
+    
+        .heading .heading1 .uldiv ul li{ 
+           width: 100px;
+            padding: 0;  
+        } 
+    
+        .heading .heading1 .uldiv ul li a{
+        width: 100%; 
+        text-align: right;
+        } 
+    
+        .heading .heading1 .uldiv ul li:hover a{
+            color: #023c2e !important; 
+            font-weight: bold;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover::after{
+            content: none;  
+        }
+    
+        .heading .heading1 .uldiv ul li:hover:before{
+            content:none;           
+        }
+    
+       
+               
+        .heading .heading1 .uldiv ul .special-li::after{
+            content: none;
+        }
+    
+        .heading .heading1 .uldiv ul .special-li:before{
+            content: none;
+        }
+
+
+        .backfoot{
+            display: block!important;
+          
+        }
+
+        .footstart{
+            border-right: none ;
+            margin-top: 0%!important;
+            padding-top: 0%!important;
+        }
+
+        .footstart h2{
+            padding: 0%!important;
+        }
+
+        .footend {
+            border-left: none ;
+        }
+
+        .footend p{
+            padding:  0% 0px!important;
+            text-align: justify;
+        }
+
+        .button{
+            margin: 0% 12%;
+        }
+
+        .conclusion{
+            height: auto;
+        }
+        
+        .conclusion .header{
+            height: 20px;
+        }
+        
+        .conclusion .row {
+          display: block!important;
+        }
+        
+        .conclusion .row .colone h4{
+        margin-left: 0%!important;
+        margin-bottom: 20px!important;
+        color: #023C2E ;
+        font-weight: bold;
+        }
+        
+        .conclusion .row .colone a{
+        margin-left: -15px!important;   
+        }
+        
+        .conclusion .row .coltwo h4{
+            color: #023C2E ;
+            font-weight: bold;
+            margin-bottom:10px!important ;
+            margin-top: 50px!important;
+        }
+        
+        .conclusion .row .colthree{
+            margin-left: 0%!important;
+            }
+        
+            .conclusion .row .colthree h4{
+                margin-bottom: 20px!important;
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+            .conclusion .row .colfour h4{
+                
+                color: #023C2E ;
+                font-weight: bold;
+                margin-top: 50px!important;
+            }
+
+
+    }
+
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .heading .heading1 .uldiv{
+        margin-right:7%!important;
+    }
+    .heading .heading1 .logo{
+        margin-left: 4%;
+    }
+
+    .backfoot{
+        display: block!important;
+      
+    }
+
+    .footstart{
+        border-right: none ;
+        margin-top: 0%!important;
+        padding-top: 0%!important;
+    }
+
+    .footstart h2{
+        padding: 0%!important;
+    }
+
+    .footend {
+        border-left: none ;
+    }
+
+    .footend p{
+        padding:  0% 0px!important;
+        text-align: justify;
+    }
+    .conclusion{
+        height: auto;
+    }
+}
